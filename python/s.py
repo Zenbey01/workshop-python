@@ -34,7 +34,7 @@ while True:
     # Break the loop if 'q' is pressed
     if cv.waitKey(1) & 0xFF == ord('q'):
         break
-
+# test
 # Release the webcam and close all windows
 cap.release()
 cv.destroyAllWindows()
